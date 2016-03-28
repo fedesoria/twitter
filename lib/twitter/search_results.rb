@@ -26,7 +26,7 @@ module Twitter
       self.attrs = request.perform
     end
 
-  private
+  # private
 
     # @return [Boolean]
     def last?
